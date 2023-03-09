@@ -1,0 +1,38 @@
+.wrapper,
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.header,
+.left-header,
+.right-header,
+.section-1-1 {
+    display: flex;
+}
+
+.wrapper,
+.section-1 {
+    flex-direction: column;
+}
+
+.white-text {
+    color: white;
+}
+
+.dark-bg {
+    background-color: #1F2937;
+}
+
+.dark-text {
+    color: #1F2937;
+}
+
+
+.left-header {
+    flex: 1;
+}
+
+.right-header {
+    flex: 3;
+}
