@@ -17,7 +17,11 @@
 .section-2-1,
 .section-2-box,
 .section-2-container,
-.quote-container {
+.quote-container,
+.call-to-action,
+.text-box,
+.sign-box,
+.sign-box .white-text {
     display: flex;
 }
 
@@ -27,7 +31,8 @@
 .section-2,
 .section-2-container,
 .section-3,
-.quote-container {
+.quote-container,
+.text-box {
     flex-direction: column;
 }
 
@@ -95,6 +100,9 @@ body {
 
 .header-logo {
     font-size: 24px;
+}
+
+.left-header .header-logo {
     padding: 16px;
 }
 
@@ -209,4 +217,38 @@ body {
 
 .thor {
     text-align: right;
+}
+
+.section-4 {
+    justify-content: center;
+}
+
+.call-to-action {
+    flex: auto;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-top: 10dvh;
+    margin-bottom: 10dvh;
+    margin-right: 10dvw;
+    margin-left: 10dvw;
+    padding: 64px;
+}
+
+.call-to-action .text-box {
+    flex: 3 1 75%;
+}
+
+.call-to-action .sign-box {
+    flex: 1 1 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-box .white-text {
+    border: solid 2px;
+    border-color: white;
+    flex: content;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 8px;
 }
