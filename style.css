@@ -13,13 +13,18 @@
 .section-1-right,
 .image-placeholder,
 .sign-up,
-.random-info {
+.random-info,
+.section-2-1,
+.section-2-box,
+.section-2-container {
     display: flex;
 }
 
 .wrapper,
 .section-1,
-.section-1-left {
+.section-1-left,
+.section-2,
+.section-2-container {
     flex-direction: column;
 }
 
@@ -149,4 +154,30 @@ body {
 .random-info .dark-text {
     font-size: 36px;
     font-weight: 800;
+}
+
+.section-2-1 {
+    justify-content: space-between;
+    flex: content;
+}
+
+.section-2-container {
+    align-items: center;
+    flex: 1 0 20%;
+    flex: auto;
+}
+
+.section-2-box {
+    border: solid 4px;
+    border-color: #3882F6;
+    border-radius: 24px;
+    min-height: 15dvw;
+    min-width: 15dvw;
+}
+
+.section-2-container .grey-text {
+    padding-left: 5dvw;
+    padding-right: 5dvw;
+    text-align: center;
+    color: grey;
 }
