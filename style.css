@@ -252,3 +252,7 @@ body {
     padding: 4px;
     border-radius: 8px;
 }
+
+.section-5 {
+    justify-content: center;
+}
